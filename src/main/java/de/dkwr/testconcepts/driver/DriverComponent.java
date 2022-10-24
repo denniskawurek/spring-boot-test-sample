@@ -1,8 +1,8 @@
 package de.dkwr.testconcepts.driver;
 
-import de.dkwr.testconcepts.vehicel.Train;
-import de.dkwr.testconcepts.vehicel.Bike;
-import de.dkwr.testconcepts.vehicel.Speed;
+import de.dkwr.testconcepts.vehicle.Train;
+import de.dkwr.testconcepts.vehicle.Bike;
+import de.dkwr.testconcepts.vehicle.Speed;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

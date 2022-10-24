@@ -1,8 +1,8 @@
 package de.dkwr.testconcepts.driver;
 
-import de.dkwr.testconcepts.vehicel.Train;
-import de.dkwr.testconcepts.vehicel.Bike;
-import de.dkwr.testconcepts.vehicel.Speed;
+import de.dkwr.testconcepts.vehicle.Train;
+import de.dkwr.testconcepts.vehicle.Bike;
+import de.dkwr.testconcepts.vehicle.Speed;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.*;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 
 @ExtendWith(MockitoExtension.class)

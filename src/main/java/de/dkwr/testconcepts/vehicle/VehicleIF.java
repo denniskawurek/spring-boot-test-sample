@@ -1,4 +1,4 @@
-package de.dkwr.testconcepts.vehicel;
+package de.dkwr.testconcepts.vehicle;
 
 public interface VehicleIF {
     void move(Speed speedName);
