@@ -31,7 +31,7 @@ public class DriverComponentTest {
     }
 
     @Test
-    public void executesSaturdayOnSaturday() {
+    public void executesTrainOnSaturday() {
         localDateTimeMocked = Mockito.mockStatic(LocalDateTime.class, Mockito.CALLS_REAL_METHODS);
         LocalDateTime now = LocalDateTime.of(2022, 10, 22, 10, 0);
         localDateTimeMocked.when(LocalDateTime::now).thenReturn(now);
